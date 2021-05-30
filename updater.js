@@ -102,6 +102,11 @@ readFile('saved.html').then(function (fileBuffer) {
   console.log(report(doc, 3))
   console.log(report(doc, 4))
   console.log(report(doc, 5))
+  console.log(report(doc, 6))
+  console.log(report(doc, 7))
+  console.log(report(doc, 8))
+  console.log(report(doc, 9))
+  console.log(report(doc, 10))
 }).catch(function (err) {
   // There was an error
   console.warn('Something went wrong.', err);
